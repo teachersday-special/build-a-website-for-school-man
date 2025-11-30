@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bus Tracker</title>
+    <link href="styles.css" rel="stylesheet"/>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"/>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet"/>
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet"/>
+<link href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" rel="stylesheet"/>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Bright Future Academy</title>
+<link crossorigin="anonymous" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" referrerpolicy="no-referrer" rel="stylesheet"/>
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav>
+<a href="index.html" style="font-weight: bold; font-size: 1.5em;">
+<i class="fas fa-school"></i> Bright Future Academy
+        </a>
+<div class="nav-links">
+<a href="about.html">About</a>
+<a href="teachers.html">Teachers</a>
+<a href="admission.html">Admission</a>
+<a href="bus_tracker.html">Bus Tracker</a>
+<a href="contact.html">Contact</a>
+</div>
+</nav>
+    
+    <main>
+  <section class="py-5 bg-light">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-md-8 text-center">
+          <h1 class="display-4 fw-bold mb-4">Track Your Child's Bus in Real-Time</h1>
+          <p class="lead mb-5">
+            Our bus tracking system provides parents with peace of mind by allowing you to see the exact location of your child's bus, estimated arrival times, and receive notifications about delays or route changes.
+          </p>
+          <a href="#bus-tracker" class="btn btn-primary btn-lg shadow-lg rounded-4">
+            <i class="fas fa-bus me-2"></i> Track Bus Now
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="py-5" id="bus-tracker">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6">
+          <img src="https://picsum.photos/seed/bus tracker/800/600" alt="School Bus on Road" class="img-fluid rounded-4 shadow-lg mb-4 mb-lg-0">
+        </div>
+        <div class="col-lg-6">
+          <h2 class="fw-bold mb-3">Enter Your Child's Student ID</h2>
+          <p class="mb-4">
+            To access the bus tracking information, please enter your child's unique student ID. This ID is provided by the school and ensures only authorized individuals can view the bus location.
+          </p>
+          <form id="bus-tracker-form">
+            <div class="mb-3">
+              <label for="studentId" class="form-label">Student ID</label>
+              <input type="text" class="form-control form-control-lg" id="studentId" placeholder="Enter Student ID" required>
+            </div>
+            <button type="submit" class="btn btn-success btn-lg shadow-lg rounded-4">
+              <i class="fas fa-search me-2"></i> Track Bus
+            </button>
+            <div id="tracking-status" class="mt-3"></div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="py-5 bg-light">
+    <div class="container">
+      <h2 class="fw-bold text-center mb-5">How It Works</h2>
+      <div class="row g-4">
+        <div class="col-md-4">
+          <div class="card shadow-sm h-100">
+            <div class="card-body text-center">
+              <i class="fas fa-id-card fa-3x mb-3 text-primary"></i>
+              <h5 class="card-title fw-bold">Enter Student ID</h5>
+              <p class="card-text">
+                Enter your child's unique student ID to access the bus tracking information.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card shadow-sm h-100">
+            <div class="card-body text-center">
+              <i class="fas fa-map-marker-alt fa-3x mb-3 text-success"></i>
+              <h5 class="card-title fw-bold">View Bus Location</h5>
+              <p class="card-text">
+                See the real-time location of the bus on a map, along with estimated arrival times.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card shadow-sm h-100">
+            <div class="card-body text-center">
+              <i class="fas fa-bell fa-3x mb-3 text-warning"></i>
+              <h5 class="card-title fw-bold">Receive Notifications</h5>
+              <p class="card-text">
+                Get notified about delays, route changes, and when the bus is approaching your stop.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="py-5">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-md-10">
+          <div class="card shadow-lg rounded-4">
+            <div class="card-body">
+              <div class="row align-items-center">
+                <div class="col-md-8">
+                  <h3 class="fw-bold">Stay Informed with Our Bus Tracker</h3>
+                  <p class="mb-0">
+                    Never miss the bus again. Get real-time updates and notifications to ensure your child's safety and punctuality.
+                  </p>
+                </div>
+                <div class="col-md-4 text-end">
+                  <a href="#bus-tracker" class="btn btn-primary btn-lg rounded-4">
+                    <i class="fas fa-arrow-right me-2"></i> Track Now
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<script>
+    document.getElementById('bus-tracker-form').addEventListener('submit', function(event) {
+        event.preventDefault();
+        const studentId = document.getElementById('studentId').value;
+        const trackingStatus = document.getElementById('tracking-status');
+
+        trackingStatus.innerHTML = '<p class="text-info"><i class="fas fa-spinner fa-spin me-2"></i> Fetching bus information...</p>';
+
+        // Simulate fetching data (replace with actual API call)
+        setTimeout(() => {
+            // Mock data for demonstration
+            const busLocation = "Main Street & Oak Avenue";
+            const estimatedArrival = "5 minutes";
+            const busRoute = "Route 7";
+
+            if (studentId) {
+                trackingStatus.innerHTML = `
+                    <div class="alert alert-success" role="alert">
+                        <h4 class="alert-heading">Bus Information</h4>
+                        <p><strong>Bus Route:</strong> ${busRoute}</p>
+                        <p><strong>Current Location:</strong> ${busLocation}</p>
+                        <p><strong>Estimated Arrival:</strong> ${estimatedArrival}</p>
+                    </div>
+                `;
+            } else {
+                trackingStatus.innerHTML = '<p class="text-danger">Invalid Student ID. Please try again.</p>';
+            }
+        }, 2000); // Simulate 2 seconds loading
+    });
+</script>
+
+    
+    <footer>
+        © 2024 Bright Future Academy. All rights reserved.
+    </footer>
+    
+    <script src="scripts.js"></script>
+</body>
+</html>
