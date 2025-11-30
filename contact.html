@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link href="styles.css" rel="stylesheet"/>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"/>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet"/>
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet"/>
+<link href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" rel="stylesheet"/>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Bright Future Academy</title>
+<link crossorigin="anonymous" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" referrerpolicy="no-referrer" rel="stylesheet"/>
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav>
+<a href="index.html" style="font-weight: bold; font-size: 1.5em;">
+<i class="fas fa-school"></i> Bright Future Academy
+        </a>
+<div class="nav-links">
+<a href="about.html">About</a>
+<a href="teachers.html">Teachers</a>
+<a href="admission.html">Admission</a>
+<a href="bus_tracker.html">Bus Tracker</a>
+<a href="contact.html">Contact</a>
+</div>
+</nav>
+    
+    <main>
+  <section class="py-5 bg-light">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <img src="https://picsum.photos/seed/contact/800/600" class="img-fluid rounded-4 shadow-lg" alt="Contact Us">
+        </div>
+        <div class="col-md-6">
+          <h1 class="display-4 fw-bold mb-4">Get in Touch</h1>
+          <p class="lead">We'd love to hear from you! Whether you have questions about our school, need assistance with enrollment, or just want to learn more, please don't hesitate to reach out.</p>
+
+          <div class="mt-4">
+            <p><i class="fas fa-map-marker-alt me-2"></i> 123 Education Lane, Anytown, USA</p>
+            <p><i class="fas fa-phone me-2"></i> (555) 123-4567</p>
+            <p><i class="fas fa-envelope me-2"></i> <a href="mailto:info@schoolname.com">info@schoolname.com</a></p>
+          </div>
+
+          <div class="mt-4">
+            <a href="#" class="btn btn-primary btn-lg"><i class="fab fa-facebook me-2"></i> Facebook</a>
+            <a href="#" class="btn btn-info btn-lg"><i class="fab fa-twitter me-2"></i> Twitter</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="py-5">
+    <div class="container">
+      <h2 class="text-center mb-4">Send us a Message</h2>
+      <div class="row justify-content-center">
+        <div class="col-lg-8">
+          <form id="contactForm">
+            <div class="mb-3">
+              <label for="name" class="form-label">Your Name</label>
+              <input type="text" class="form-control" id="name" name="name" placeholder="Enter your name" required>
+              <div class="invalid-feedback">Please enter your name.</div>
+            </div>
+            <div class="mb-3">
+              <label for="email" class="form-label">Your Email</label>
+              <input type="email" class="form-control" id="email" name="email" placeholder="Enter your email" required>
+              <div class="invalid-feedback">Please enter a valid email address.</div>
+            </div>
+            <div class="mb-3">
+              <label for="subject" class="form-label">Subject</label>
+              <input type="text" class="form-control" id="subject" name="subject" placeholder="Enter the subject" required>
+              <div class="invalid-feedback">Please enter a subject.</div>
+            </div>
+            <div class="mb-3">
+              <label for="message" class="form-label">Your Message</label>
+              <textarea class="form-control" id="message" name="message" rows="5" placeholder="Enter your message" required></textarea>
+              <div class="invalid-feedback">Please enter a message.</div>
+            </div>
+            <button type="submit" class="btn btn-primary">Send Message</button>
+          </form>
+          <div id="form-message-success" class="alert alert-success mt-3 d-none" role="alert">
+            Your message was sent successfully!
+          </div>
+          <div id="form-message-error" class="alert alert-danger mt-3 d-none" role="alert">
+            There was an error sending your message. Please try again later.
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="py-5 bg-light">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4">
+          <div class="card shadow-lg rounded-4 border-0">
+            <div class="card-body text-center">
+              <i class="fas fa-graduation-cap fa-3x mb-3 text-primary"></i>
+              <h5 class="card-title">Admissions</h5>
+              <p class="card-text">Have questions about the admissions process? Contact our admissions team.</p>
+              <a href="admissions.html" class="btn btn-outline-primary">Learn More</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card shadow-lg rounded-4 border-0">
+            <div class="card-body text-center">
+              <i class="fas fa-bus fa-3x mb-3 text-success"></i>
+              <h5 class="card-title">Transportation</h5>
+              <p class="card-text">Need help with bus routes or transportation schedules? We're here to assist.</p>
+              <a href="bus-tracker.html" class="btn btn-outline-success">View Bus Tracker</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card shadow-lg rounded-4 border-0">
+            <div class="card-body text-center">
+              <i class="fas fa-question-circle fa-3x mb-3 text-warning"></i>
+              <h5 class="card-title">General Inquiries</h5>
+              <p class="card-text">For all other questions and inquiries, please contact our general information line.</p>
+              <a href="#" class="btn btn-outline-warning">Call Us</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<script>
+ document.addEventListener('DOMContentLoaded', function () {
+  const form = document.getElementById('contactForm');
+  const successMessage = document.getElementById('form-message-success');
+  const errorMessage = document.getElementById('form-message-error');
+
+  form.addEventListener('submit', function (event) {
+    event.preventDefault();
+
+    // Basic form validation (can be enhanced)
+    if (!form.checkValidity()) {
+      form.classList.add('was-validated');
+      return;
+    }
+
+    // Simulate form submission (replace with actual API call)
+    setTimeout(() => {
+      // Simulate success
+      successMessage.classList.remove('d-none');
+      form.reset();
+      form.classList.remove('was-validated');
+      errorMessage.classList.add('d-none');
+
+      // Hide success message after 5 seconds
+      setTimeout(() => {
+        successMessage.classList.add('d-none');
+      }, 5000);
+
+    }, 1000); // Simulate network delay
+
+  });
+});
+</script>
+
+    
+    <footer>
+        © 2024 Bright Future Academy. All rights reserved.
+    </footer>
+    
+    <script src="scripts.js"></script>
+</body>
+</html>
